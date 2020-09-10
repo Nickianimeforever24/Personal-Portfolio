@@ -23,3 +23,35 @@ li a {
 li a:hover {
   background-color: chartreuse;
 }
+
+.container
+{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.image
+{
+  width: 25%;
+  height: 40%;
+
+
+}
+#image1
+{
+  background-color: pink;
+  
+}
+
+#image2
+{
+  background-color: purple;
+}
+
+#image3
+{
+  background-color: blue;
+}
