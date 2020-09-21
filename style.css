@@ -112,6 +112,19 @@ li a:hover {
   width: 40vw;
 }
 
+
+
+#gameSelection
+{
+  border: 2px solid red;
+}
+
+#SnakeGame
+{
+  width : 60vw;
+  height: 60vw;
+  border-style: solid;
+}
 body
 {
   background-image: url("https://www.netclipart.com/pp/m/18-187952_video-games-clipart-uses-computer-logo-video-games.png");
