@@ -36,3 +36,15 @@ vrGames.addEventListener("mouseover", showAnotherGamePic);
 vrGames.addEventListener("mouseout", showOriginalGamePic);
 siteSearch.addEventListener("mouseover", showAnotherWebsitePic);
 siteSearch.addEventListener("mouseout", showOriginalWebsitePic);
+
+const redBox = document.querySelector("#littleRedBox");
+
+// H.W. change the function to the click function can move it to the left or right side.
+function addAClass()
+{
+   redBox.classList.add("whenHover")
+   
+
+}
+
+redBox.addEventListener("click", addAClass)
