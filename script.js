@@ -38,13 +38,28 @@ siteSearch.addEventListener("mouseover", showAnotherWebsitePic);
 siteSearch.addEventListener("mouseout", showOriginalWebsitePic);
 
 const redBox = document.querySelector("#littleRedBox");
+console.log(redBox.classList);
 
-// H.W. change the function to the click function can move it to the left or right side.
 function addAClass()
 {
-   redBox.classList.add("whenHover")
-   
+
+    if(redBox.classList.contains("whenHover"))
+    {
+        redBox.classList.remove("whenHover")
+        
+        // The easiest way to modify the content of an HTML element is by using the innerHTML property. 
+        // To change the content of an HTML element.
+        redBox.innerHTML="Click Me!";
+    }
+    else
+    {
+        redBox.classList.add("whenHover")
+        redBox.innerHTML = "Click Me Again!";
+    }
+
 
 }
 
+
 redBox.addEventListener("click", addAClass)
+
